@@ -1,4 +1,4 @@
-#Binge Watch
+##Binge Watch
 Binge Watch” is a web application to watch your favourite movie.
 
 ## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,13 +14,19 @@ Binge Watch” is a web application to watch your favourite movie.
 
 ### `npm test`
 
-If npm test gives 'No tests found related to files changed since last commit' then ###run npm test a
+If npm test gives 'No tests found related to files changed since last commit' then run
+
+### `npm test a`
 Launches the test runner
 
-#Packages used
+##Packages used
 This app was built using the following packages:
-bootstrap- react bootstrap library for UI component
+
+bootstrap- react: library for UI component
+
 Font Awesome - Library for icons.
+
 axio - It is used for API call
+
 react-player - used to play video
 
