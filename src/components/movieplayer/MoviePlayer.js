@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 const youtubeUrl = "https://www.youtube.com/watch?v=";
 
 export function MoviePlayer(props) {
-  const video = props.video
+  const {video,openVideoPlayer} = props;
 
   const MoviePalyerModal = (props) => {
     return (
@@ -34,7 +34,7 @@ export function MoviePlayer(props) {
         <MoviePalyerModal
           show={props.isOpen}
           onHide={() => {
-            props.openVideoPlayer(false);
+            openVideoPlayer(false);
           }}
         ></MoviePalyerModal>
     </div>

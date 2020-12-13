@@ -1,5 +1,5 @@
 #Binge Watch
-
+Binge Watch” is a web application to watch your favourite movie.
 
 ## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,6 +14,7 @@
 
 ### `npm test`
 
+If npm test gives 'No tests found related to files changed since last commit' then ###run npm test a
 Launches the test runner
 
 #Packages used
