@@ -1,0 +1,101 @@
+.movieImg{
+    height: 100%;
+    max-height: 379px
+}
+
+.video-overlay {
+    position: absolute;
+    top: 28%;
+    left: 33%;
+    z-index: 10;
+}
+.playButton{
+    font-size: 95px;
+    color: #0f80f4bf;
+    cursor: pointer;
+}
+.listHeader {
+    color:#0f80f4bf;
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .playButton{
+        font-size: 50px;
+    }
+
+    .video-overlay {
+        top: 23%;
+        left: 34%;
+    }
+    
+  }
+
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    .video-overlay {
+        top: 29%;
+        left: 43%;
+    }
+  }
+
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .video-overlay {
+        left: 40%;
+    }
+    
+  }
+  
+  .glyphicons_v2 {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    z-index: 20;
+    height: 30px;
+    width: 30px;
+    color: cornflowerblue;
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 170px;
+}
+
+ul.navbar li {
+    width: 100%;
+}
+
+ul.navbar li span {
+    display: block;
+    color: #000000;
+    font-weight:bold;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+ul.navbar li span:hover {
+    width: 100%;
+    background-color:  rgb(131, 222, 238);
+    color: white;
+}
