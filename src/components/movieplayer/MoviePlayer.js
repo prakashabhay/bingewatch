@@ -1,6 +1,6 @@
 import React from "react";
 import { Modal } from "react-bootstrap";
-import ReactPlayer from "react-player";
+import ReactPlayer from 'react-player/youtube';
 
 const youtubeUrl = "https://www.youtube.com/watch?v=";
 

@@ -18,7 +18,9 @@ try {
         poster: movie['poster_path'] ? posterBaseUrl + movie['poster_path']:'',
         overview: movie['overview'],
         rating: movie['vote_average'],
-    }));
+    })).filter((it)=>{
+        return it.poster;
+    });
     return modifiedData;
 } catch (error) {
 }
