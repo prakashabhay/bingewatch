@@ -2,6 +2,8 @@
 Binge Watch” is a web application to watch your favourite movie.
 
 ## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Demo](https://github.com/prakashabhay/bingewatch/issues/1#issue-766261041).
+
 
 ### Get the project running
 
