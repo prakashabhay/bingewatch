@@ -11,13 +11,13 @@ try {
     const result = await search(`${URL}?query=${searchValue}&api_key=${apiKey}`);
     const posterBaseUrl = 'https://image.tmdb.org/t/p/original/';
     const modifiedData = result.map((movie) => ({
-        id: movie['id'],
-        backPoster: posterBaseUrl + movie['backdrop_path'],
-        popularity: movie['popularith'],
-        title: movie['title'],
-        poster: movie['poster_path'] ? posterBaseUrl + movie['poster_path']:'',
-        overview: movie['overview'],
-        rating: movie['vote_average'],
+        id: movie.id,
+        backPoster: posterBaseUrl + movie.backdrop_path,
+        popularity: movie.popularith,
+        title: movie.title,
+        poster: movie.poster_path ? posterBaseUrl + movie.poster_path:'',
+        overview: movie.overview,
+        rating: movie.vote_average,
     })).filter((it)=>{
         return it.poster;
     });
